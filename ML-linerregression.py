@@ -6,4 +6,4 @@ weight=[  8, 10 , 12, 14, 16, 18, 20]
 reg=linear_model.LinearRegression()
 reg.fit(height,weight)
 X_height=[[12.0]]
-print(reg.predict(X_height)
+print(reg.predict(X_height))
